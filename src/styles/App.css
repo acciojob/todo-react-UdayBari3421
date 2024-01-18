@@ -1,1 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 
+.box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 500px;
+    margin: auto;
+    min-height: fit-content;
+    padding: 22px;
+    padding-top: 20px;
+    background-color: bisque;
+}
+
+ul {
+    gap: 12px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+}
+
+form {
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    text-align: center;
+}
+
+button {
+    padding: 0;
+    background-color: rgb(64, 64, 71);
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+input,
+button {
+    padding: 5px;
+    margin-right: 12px;
+}
